@@ -1,0 +1,49 @@
+{
+  "seed": 7,
+  "simulation_only": true,
+  "python": "3.12.14",
+  "command": "python -m fabguard.experiments --seed 7",
+  "versions": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.5",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "matplotlib": "3.11.2",
+    "streamlit": "1.63.0",
+    "plotly": "7.0.0"
+  },
+  "source_sha256": {
+    ".streamlit/config.toml": "07eb2eb222952b78c3008dbbea14fcd7f85689084c1783cee3403e36aeb3c4f6",
+    "dashboard.py": "071d60eaa1be861683e1f3655752b015d401215c0ca84d1ed5ecd01d8c5fedf4",
+    "pyproject.toml": "fb3a3174867eb45de273a5a2a2d03c78e7e24afe6873133fa637a7c78c443a30",
+    "requirements-reference.txt": "912345bb91b4cb01f29384fcfa6bb581ec2e92132a8549ca2aa845966a342ed4",
+    "scripts/verify_report.py": "5612473211c2675876cb63e75b244454a5dc0da041210dad8ecbd479b5ec8d7a",
+    "src/fabguard/__init__.py": "f87e8b57badb556902a670518b3568e0753179d96c0912457af8c608baa4a7d5",
+    "src/fabguard/experiments.py": "2df1da78cf27ab7ab9c942cfc5682eeaed7548d5515dfab634e49f1fbc633f8a",
+    "src/fabguard/fleet.py": "b41df90756e43d3d87d7620f0d898d16ccae3f12d4dbe204db52831851c82f32",
+    "src/fabguard/maintenance.py": "24920bf983cf32b41ea3aea730126b2ec202614c351241f25a408e343de24e5e",
+    "src/fabguard/matching.py": "a0e7cbb8465d83b0596f2146e2ad24b0ce73e803962c56032b80575827106241",
+    "src/fabguard/model.py": "f66146ca22479d3e756783ccb4d36a5e9a038c2af25ecb306ce40ba63801c3c4",
+    "src/fabguard/optimize.py": "722ec9579f847fb4c41f9e181b119abc1d66626a89b7d4a9bd5983d0ab8e2340",
+    "src/fabguard/spc.py": "d029f95def720817c440e59da5bc59573391834c6f62299520c183f714e27fdc",
+    "tests/test_dashboard.py": "dcb4f2ab271aa9f492665e33a9756e3724101ebac124eea22191da42461607c9",
+    "tests/test_engineering.py": "d86daa9ad08b6f547872ae8e772b9e2c65cd027bcee586c684563c5227950299"
+  },
+  "data_sha256": {
+    "challenge_wafers.csv": "12c383cb8fa949aa079c7aad8ab437224a8406d54a84d08a712307f37ac8ade4",
+    "charts.csv": "017c83badb7fde473513016ab3b859f49ad05aabe7e336fec50bde3a617a8754",
+    "detection_trials.csv": "5937e51391d897f79f074dc8af18c853547ee062b6761d6d94a0738d3986949a",
+    "events.csv": "c9c42986d26010136dce6486a767ab139f18410bdf2b2f4126d742ffa6894f14",
+    "maintenance_dataset.csv": "008ead83b4650b01ce6a9a43b7e00a32a3d291a2bf01894496dd0b98f8e48d9a",
+    "maintenance_predictions.csv": "c142732b32cf0cc5dddcec0d6577b72d593470c59c1b26d7fc8e4d30e6210bb7",
+    "matching.csv": "b4c2011ae0c4855b58a678589d37c205e479d9d3774b67c91d9e071ee7c14838",
+    "matching_calibration.csv": "d4c5aef9069c5b62ca01684400a0f163f96339a84fe05b463df2f186067846b6",
+    "matching_confirmation.csv": "5a7e46c938817e49eba5c74151ae34849f6d13ea7a642a023a9bae66563017f3",
+    "optimization_confirmation.csv": "9417acff5f74e77d0b0578fcb52046c20a8c91721046439a1919a3361db412cc",
+    "optimization_history.csv": "dbc3776dd699a5cd35a2c1cc2c498cf60a681f7c6c6b8a081c53f4cdf1930d4c",
+    "reliability.csv": "c62cf082f43bd03e23a5c8bb6374df609f5d92dc663ddb8c379757ecba716e45",
+    "sensors.csv": "a7eb4e04d31ff9a77b2db5785acf6510d88e78953045dc27ee0012a12bd364fb",
+    "spc_baseline.csv": "31f71c6dcb0712bccd80af5206726dae8f6e3a82152cb6f12f824cf3ceedf6cb",
+    "wafers.csv": "c721ed2feecd102fd6ac9e3d1e311b4d29e4f1663002da4245d135307a9d7a53"
+  }
+}

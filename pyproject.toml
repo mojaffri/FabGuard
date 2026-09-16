@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fabguard"
+version = "0.1.0"
+description = "Synthetic plasma-etch equipment analytics laboratory"
+requires-python = ">=3.11"
+dependencies = ["numpy>=1.26,<3", "pandas>=2.1,<4", "scipy>=1.11,<2", "scikit-learn>=1.4,<2", "matplotlib>=3.8,<4", "streamlit>=1.63,<2", "plotly>=5.20,<8"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10", "ruff>=0.11,<1"]
+
+[project.scripts]
+fabguard = "fabguard.experiments:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I"]
